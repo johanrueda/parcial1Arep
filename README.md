@@ -2,7 +2,6 @@
 Este programa tiene como funcionalidad retornar el clima en formato JSON en una api externo de cualquier ciudad
 
 
-
 ## Prerequisitos del sistema
 * Maven
 * Git
@@ -23,7 +22,7 @@ de esta manera la aplicacion corre localmente, en tu navegador favorito colocas 
 
 Pero tambien dicha aplicacion tiene un despliegue en heroku que puedes utilizar en cualquier momento.
 
-[Heroku](https://parcialarepjohan.herokuapp.com//)
+[Heroku](https://parcialarepjohan.herokuapp.com/clima?lugar=London)
 
 
 Para ejecutar las pruebas basta con un comando sencillo ya que estan automatizadas con el framework JUnit:
@@ -32,6 +31,9 @@ Para ejecutar las pruebas basta con un comando sencillo ya que estan automatizad
 
 este es el resultado del programa y lo esperado:
 
+## Como funciona
+
+Al momento de hacer el despliegue de la app, tienes que tener en cuenta de enviar el paratremos /clima?lugar="Lugar que desea consultar"
 
 ## Documentación
 

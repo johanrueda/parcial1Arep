@@ -35,4 +35,9 @@ public class Clima {
         return String.valueOf(respuesta);
     }
 
+    private String cache (String lugar){
+        String json = "";
+        return json;
+    }
+
 }
