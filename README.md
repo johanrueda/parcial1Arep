@@ -1,5 +1,5 @@
 # Clima con un API externa
-Este programa tiene como funcionalidad retornar el clima en formato JSON en una api externo de cualquier ciudad
+Este programa tiene como funcionalidad retornar el clima en formato JSON en una api externo de cualquier ciudad, donde utiliza un Hashmap para hacer la simulacion de un Cache
 
 
 ## Prerequisitos del sistema

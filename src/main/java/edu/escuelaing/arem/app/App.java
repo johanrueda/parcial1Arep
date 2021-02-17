@@ -18,7 +18,8 @@ public class App
         Gson gson = new Gson();
         get("/clima",(req,res) -> {
             String lugar = req.queryParams("lugar");
-            String conexion = Clima.getClima(lugar);
+            //String conexion = Clima.getClima(lugar);
+            String conexion = Cache.estaEnCache(lugar);
             return gson.toJson(conexion);
         });
 
